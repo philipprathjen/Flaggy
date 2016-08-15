@@ -1,0 +1,23 @@
+#trending{
+	position: relative;
+	left:0;
+	width:100%;
+	background-color: white;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+#ranking{
+	width: 100%;
+	background-color: lightgrey;
+	height: 400px;
+	float: left;
+}
+#quote{
+	position: relative;
+	top: 5px;
+	color: black;
+	font-size: 25px !important;
+	font-family: sans-serif;
+	text-align: center;
+}

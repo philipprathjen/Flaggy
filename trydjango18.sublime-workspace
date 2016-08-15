@@ -1,0 +1,540 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"stati",
+				"STATIC_ROOT"
+			],
+			[
+				"V",
+				"validationError"
+			],
+			[
+				"row",
+				"row1_perc"
+			],
+			[
+				"col",
+				"col_sum_sig"
+			],
+			[
+				"Htt",
+				"HttpResponse"
+			],
+			[
+				"Http",
+				"http"
+			],
+			[
+				"font",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/my_project/settings.py",
+			"settings":
+			{
+				"buffer_size": 4054,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 1077,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/my_project/urls.py",
+			"settings":
+			{
+				"buffer_size": 1331,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 911,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/javascript.html",
+			"settings":
+			{
+				"buffer_size": 575,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/head_css.html",
+			"settings":
+			{
+				"buffer_size": 1117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/newsletter/views.py",
+			"settings":
+			{
+				"buffer_size": 1768,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/newsletter/models.py",
+			"settings":
+			{
+				"buffer_size": 644,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/navbar.html",
+			"settings":
+			{
+				"buffer_size": 1898,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Python3.sublime-build",
+	"command_palette":
+	{
+		"height": 367.0,
+		"selected_items":
+		[
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/philipp_rathjen/Desktop/trydjango18/src/newsletter/forms.py",
+		"/Users/philipp_rathjen/Desktop/trydjango18/src/templates/forms.html",
+		"/Users/philipp_rathjen/Desktop/trydjango18/src/templates/navbar.html",
+		"/Users/philipp_rathjen/Desktop/trydjango18/src/templates/jumbotron.html",
+		"/Users/philipp_rathjen/Desktop/trydjango18/src/static_in_pro/our_static/css/bootstrap.min.css",
+		"/Users/philipp_rathjen/Desktop/trydjango18/src/newsletter/admin.py",
+		"/Users/philipp_rathjen/Desktop/trydjango18/src/static_in_pro/our_static/img/example.txt",
+		"/Users/philipp_rathjen/Desktop/trydjango18/src/newsletter/templates/home.html",
+		"/Users/philipp_rathjen/Desktop/trydjango18/trydjango18.sublime-project",
+		"/Users/philipp_rathjen/Desktop/trydjango18/src/newsletter/views.py",
+		"/Users/philipp_rathjen/Desktop/trydjango18/src/my_project/urls.py",
+		"/Users/philipp_rathjen/Desktop/trydjango18/src/manage.py",
+		"/Users/philipp_rathjen/Desktop/trydjango18/src/trydjango18/wsgi.py",
+		"/Users/philipp_rathjen/Desktop/trydjango18/src/my_project/wsgi.py",
+		"/Users/philipp_rathjen/Desktop/trydjango18/src/newsletter/migrations/__init__.py",
+		"/Users/philipp_rathjen/Documents/Work/MeetUp/Project/meetup/landing/templates/README.txt",
+		"/Users/philipp_rathjen/Documents/Work/MeetUp/Project/meetup/landing/templates/landing/header.html",
+		"/Users/philipp_rathjen/Documents/Work/MeetUp/Project/meetup/landing/views.py",
+		"/Users/philipp_rathjen/Documents/Work/MeetUp/Project/meetup/landing/templates/landing/home.html",
+		"/Users/philipp_rathjen/Dropbox/06 Columbia University/WebApp Programming with Python/Assignment/Webpage_Ass4/Assignment4.html",
+		"/Users/philipp_rathjen/Dropbox/06 Columbia University/WebApp Programming with Python/Assignment/Webpage_Ass4/Assignment4_PR_final.webarchive",
+		"/Users/philipp_rathjen/Documents/Work/MeetUp/Project/meetup/webapp/views.py",
+		"/Users/philipp_rathjen/Documents/Work/MeetUp/Project/meetup/meetup/settings.py",
+		"/Users/philipp_rathjen/Documents/Work/MeetUp/Project/meetup/landing/apps.py",
+		"/Users/philipp_rathjen/Documents/Work/MeetUp/Project/meetup/meetup/urls.py",
+		"/Users/philipp_rathjen/Documents/Work/MeetUp/Project/meetup/landing/urls.py",
+		"/Users/philipp_rathjen/Documents/Work/MeetUp/Project/meetup/webapp/urls.py",
+		"/Users/philipp_rathjen/Documents/Work/MeetUp/Project/meetup/manage.py",
+		"/Users/philipp_rathjen/Documents/Work/MeetUp/Project/meetup/meetup/__init__.py",
+		"/Users/philipp_rathjen/Desktop/test.py",
+		"/Users/philipp_rathjen/Dropbox/06 Columbia University/Cognitive Mechanisms and Economic Behavior/Assignment1_PR.py",
+		"/Users/philipp_rathjen/Library/Application Support/Sublime Text 2/Packages/User/Python3.sublime-build",
+		"/Users/philipp_rathjen/Desktop/Django_Tutorials/mysite/personal/templates/personal/home.html",
+		"/Users/philipp_rathjen/Desktop/Django_Tutorials/mysite/mysite/urls.py",
+		"/Users/philipp_rathjen/Desktop/Django_Tutorials/mysite/mysite/settings.py",
+		"/Users/philipp_rathjen/Desktop/Django_Tutorials/mysite/manage.py",
+		"/Users/philipp_rathjen/Desktop/Django_Tutorials/mysite/personal/templates/includes/htmlsnippet.html",
+		"/Users/philipp_rathjen/Desktop/Django_Tutorials/mysite/personal/static/personal/css/bootstrap-theme.min.css",
+		"/Users/philipp_rathjen/Desktop/Django_Tutorials/mysite/personal/views copy.py",
+		"/Users/philipp_rathjen/Desktop/Django_Tutorials/mysite/personal/templates/personal/header.html",
+		"/Users/philipp_rathjen/Desktop/Django_Tutorials/mysite/webapp/views.py",
+		"/Users/philipp_rathjen/Desktop/Django_Tutorials/mysite/webapp/urls.py",
+		"/Users/philipp_rathjen/Documents/Webdevelopment/main.css",
+		"/Users/philipp_rathjen/Documents/Codecademy/Airbnb_website/main.css",
+		"/Users/philipp_rathjen/Documents/Codecademy/Airbnb_website/Index.html",
+		"/Users/philipp_rathjen/Documents/Webdevelopment/01052015_Exercise",
+		"/Users/philipp_rathjen/Documents/Codecademy/Airbnb_website/test.html",
+		"/Users/philipp_rathjen/Downloads/quanto_dashboards/access_management.html",
+		"/Users/philipp_rathjen/Downloads/quanto_dashboards/room_service.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"4obtiqddf1",
+			"newsletter",
+			">",
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/my_project/settings.py",
+					"settings":
+					{
+						"buffer_size": 4054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4053,
+								4053
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1981.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/templates/home.html",
+					"settings":
+					{
+						"buffer_size": 1077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								672,
+								672
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 52.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/my_project/urls.py",
+					"settings":
+					{
+						"buffer_size": 1331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1140,
+								1140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/templates/base.html",
+					"settings":
+					{
+						"buffer_size": 911,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								771,
+								771
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 70.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/templates/javascript.html",
+					"settings":
+					{
+						"buffer_size": 575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/templates/head_css.html",
+					"settings":
+					{
+						"buffer_size": 1117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/newsletter/views.py",
+					"settings":
+					{
+						"buffer_size": 1768,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								896,
+								896
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 791.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/newsletter/models.py",
+					"settings":
+					{
+						"buffer_size": 644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								624,
+								624
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/templates/navbar.html",
+					"settings":
+					{
+						"buffer_size": 1898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/philipp_rathjen/Dropbox/06 Columbia University/Cognitive Mechanisms and Economic Behavior/Data/Assignment1_PR.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

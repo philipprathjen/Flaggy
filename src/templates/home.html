@@ -1,0 +1,53 @@
+{% extends "base.html" %}      
+{% load staticfiles %}
+
+{% block content %}
+
+
+
+<body>
+<div id="trending">
+	<div id="quote">Trending right now: Mexico</div>
+</div>
+<div id="world-map" style="width: 100%;"></div>
+<div id="ranking">
+	<h2>Flaggy superstars</h2>
+		<ul>
+			<li>Maximilian Klüpfel</li>
+		</ul>
+
+
+</div>
+
+
+
+<script>
+    
+    var girls = {
+      "DE": 5,
+      "AL": 7,
+      "DZ": 3,
+    }
+
+    $('#world-map').vectorMap({
+      map: 'world_mill',
+      series: {
+        regions: [{
+          values: girls,
+          scale: ['#C8EEFF', '#0071A4'],
+          // This is the country colouring scale
+          normalizeFunction: 'polynomial'
+        }]
+      },
+
+    });
+
+    $( ".jvectormap-zoomin" ).remove();
+    $( ".jvectormap-zoomout" ).remove();
+</script>
+
+
+</body>
+
+{% endblock %}
+

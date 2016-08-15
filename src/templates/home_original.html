@@ -1,0 +1,56 @@
+{% extends "base.html" %}      
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+
+{% block head_title %}
+Tropical Design | 
+{% endblock %} 
+
+<!-- This block is used to create a stylesheet -->
+
+
+
+{% block content %}
+{% if request.user.is_authenticated %}
+
+
+<center>
+	<h1> You are logged in!</h1>
+</center>
+
+
+
+{% else %}
+<div class="row">
+	<p>This is the landing page</p>
+</div>
+<div id="world-map" style="width: 100%; height: 400px"></div>
+  <img src="http://images.boats.com/resize/1/70/86/5157086_20150721064416621_1_LARGE.jpg?w=600&h=600">
+  <script>
+    
+    var girls = {
+      "DE": 5,
+      "AL": 7,
+      "DZ": 3,
+    }
+
+    $('#world-map').vectorMap({
+      map: 'world_mill',
+      series: {
+        regions: [{
+          values: girls,
+          scale: ['#C8EEFF', '#0071A4'],
+          // This is the country colouring scale
+          normalizeFunction: 'polynomial'
+        }]
+      },
+      onRegionTipShow: function(e, el, code){
+        el.html(el.html()+' (Count '+girls[code]+')');
+      }
+    });
+  </script>
+
+
+{% endif %}
+
+{% endblock %}

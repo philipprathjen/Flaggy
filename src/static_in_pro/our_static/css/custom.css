@@ -1,0 +1,118 @@
+body{
+	background-color: rgb(80, 80, 80);
+};
+
+.test-align-center{
+	text-align:center;
+}
+.jvectormap-container{
+	height: 500px;
+}
+
+.jumbotron{
+	color: red !important;
+}
+
+.navigator{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.15);
+	/*background: url("{% static 'img/circle.svg' %}");*/
+	position: relative;
+	left:50%;
+	z-index: 3;
+}
+
+
+.element{
+	position: relative;
+	top: 20px;
+	width: 30%;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.5);
+	z-index: 1;
+	float: left;
+	margin: 1%;
+	border-radius:30px;
+}
+
+
+@media (max-width:960px) {  
+.element{
+	position: relative;
+	top: 20px;
+	left: 15%;
+	width: 70%;
+	height: 300px;
+	background-color: white;
+	z-index: 1;
+	margin: 1%;
+
+}
+}	
+
+
+#quote{
+	position: relative;
+	top: 10px;
+	color: black;
+	font-size: 30px;
+	font-family: sans-serif;
+	text-align: center;
+}
+#input_form{
+	position: relative;
+	top:50px;
+}
+
+#profile-title{
+	background-color: #8B0000;
+	width: 20%;
+	margin-left: 40%;
+}
+
+/*Form Design*/
+#country-select{
+	width:80%;
+	height: 20px;
+}
+
+.flag{
+	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	margin: 3px; 
+}
+
+.flag img {
+	margin: 0 -100%;
+	height: 100%;
+
+}
+
+
+textarea {
+	width: 90%;
+	background-color: lightgrey;
+	font-family: sans-serif;
+	vertical-align: text-bottom;
+	text-align: center;
+
+}
+
+
+
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url(leaguegothic-regular-webfont.ttf) format("truetype");
+}
+p.customfont { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+    font-size: 80px;
+}
+

@@ -1,0 +1,44 @@
+body {
+  min-height: 1000px;
+}
+
+
+.navbar-static-top {
+  margin-bottom: 19px;
+  background-color: #000000;
+}
+.navbar-default{
+	border-color:black;
+}
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+
+
+/*This is for when the mouse is hoverin over it*/
+.navbar-default .navbar-brand:hover {
+    color: #CFF5F7;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #fff !important;
+}
+
+.navbar-toggle{
+	border-color: #FFF !important;
+}
+.navbar-text
+{
+	height:50px;padding:15px 15px;font-size:18px;line-height:20px;
+	color:white !important;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+    text-decoration: none;
+}

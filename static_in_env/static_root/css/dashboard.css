@@ -1,0 +1,10 @@
+.ranking{
+	width: 50%;
+	background-color: red;
+	height: 400px;
+}
+.trending{
+	width:50%;
+	background-color: blue;
+	height: 400px;
+}

@@ -18,14 +18,17 @@ from django.conf.urls import include, url
 from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
+from newsletter.views import home, contact
+from flaggy.views import about
+from profiles.views import profile
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', "newsletter.views.home", name='profile'),
-    url(r'^contact$', "newsletter.views.contact", name='contact'),
-    url(r'^about$', "flaggy.views.about", name='about'),
+    url(r'^$', home, name='profile'),
+    url(r'^contact$', contact, name='contact'),
+    url(r'^about$', about, name='about'),
     url(r'^accounts/', include('registration.backends.default.urls')),
-    url(r'^profile/(?P<username>[\w.@+-]+)/$', 'profiles.views.profile', name='profile'),
+    url(r'^profile/(?P<username>[\w.@+-]+)/$', profile, name='profile'),
 ] 
 # It's taking these urls and then appending the static
 # Doing it this way seperates development from what we would have in production, when DEBUG is off. 

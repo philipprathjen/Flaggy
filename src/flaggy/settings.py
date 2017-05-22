@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 # You add in stuff here to send Emails
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'rathjen.philipp@gmail.com'
-EMAIL_HOST_PASSWORD = 'Coyo@c@nera1990'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT= 587
 EMAIL_USE_TLS = True
 
